@@ -1985,6 +1985,7 @@ dependencies = [
  "thiserror",
  "tokio 1.15.0",
  "tokio-postgres",
+ "tracing",
  "uuid",
 ]
 
@@ -6347,8 +6348,9 @@ checksum = "360dfd1d6d30e05fda32ace2c8c70e9c0a9da713275777f5a4dbb8a1893930c6"
 
 [[package]]
 name = "tracing"
-version = "0.1.29"
-source = "git+https://github.com/tokio-rs/tracing?rev=e07a22f297940e41c8d11eeff2ac1618112e6e01#e07a22f297940e41c8d11eeff2ac1618112e6e01"
+version = "0.1.30"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2d8d93354fe2a8e50d5953f5ae2e47a3fc2ef03292e7ea46e3cc38f549525fb9"
 dependencies = [
  "cfg-if 1.0.0",
  "log",
@@ -6359,8 +6361,9 @@ dependencies = [
 
 [[package]]
 name = "tracing-attributes"
-version = "0.1.18"
-source = "git+https://github.com/tokio-rs/tracing?rev=e07a22f297940e41c8d11eeff2ac1618112e6e01#e07a22f297940e41c8d11eeff2ac1618112e6e01"
+version = "0.1.19"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8276d9a4a3a558d7b7ad5303ad50b53d58264641b82914b7ada36bd762e7a716"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -6369,8 +6372,9 @@ dependencies = [
 
 [[package]]
 name = "tracing-core"
-version = "0.1.21"
-source = "git+https://github.com/tokio-rs/tracing?rev=e07a22f297940e41c8d11eeff2ac1618112e6e01#e07a22f297940e41c8d11eeff2ac1618112e6e01"
+version = "0.1.22"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "03cfcb51380632a72d3111cb8d3447a8d908e577d31beeac006f836383d29a23"
 dependencies = [
  "lazy_static 1.4.0",
  "valuable",
@@ -6389,7 +6393,8 @@ dependencies = [
 [[package]]
 name = "tracing-log"
 version = "0.1.2"
-source = "git+https://github.com/tokio-rs/tracing?rev=e07a22f297940e41c8d11eeff2ac1618112e6e01#e07a22f297940e41c8d11eeff2ac1618112e6e01"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a6923477a48e41c1951f1999ef8bb5a3023eb723ceadafe78ffb65dc366761e3"
 dependencies = [
  "lazy_static 1.4.0",
  "log",
@@ -6398,8 +6403,9 @@ dependencies = [
 
 [[package]]
 name = "tracing-opentelemetry"
-version = "0.16.0"
-source = "git+https://github.com/tokio-rs/tracing?rev=e07a22f297940e41c8d11eeff2ac1618112e6e01#e07a22f297940e41c8d11eeff2ac1618112e6e01"
+version = "0.17.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dff3ebfa73490b6d574ca747819b6bde3e8d006b58861f34cafa89898d91eb9c"
 dependencies = [
  "opentelemetry",
  "tracing",
@@ -6411,7 +6417,8 @@ dependencies = [
 [[package]]
 name = "tracing-subscriber"
 version = "0.3.7"
-source = "git+https://github.com/tokio-rs/tracing?rev=e07a22f297940e41c8d11eeff2ac1618112e6e01#e07a22f297940e41c8d11eeff2ac1618112e6e01"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5312f325fe3588e277415f5a6cca1f4ccad0f248c4cd5a4bd33032d7286abc22"
 dependencies = [
  "ansi_term 0.12.1",
  "sharded-slab",

@@ -45,12 +45,6 @@ testcontainers = { git = "https://github.com/testcontainers/testcontainers-rs", 
 drogue-client = { git = "https://github.com/drogue-iot/drogue-client", rev = "568602f6b11edcee5680f9ac3e15b73f966bfba3" } # FIXME: awaiting release
 #drogue-client = { path = "../drogue-client" }
 
-tracing-opentelemetry = { git = "https://github.com/tokio-rs/tracing", rev = "e07a22f297940e41c8d11eeff2ac1618112e6e01" }
-tracing = { git = "https://github.com/tokio-rs/tracing", rev = "e07a22f297940e41c8d11eeff2ac1618112e6e01" }
-tracing-core = { git = "https://github.com/tokio-rs/tracing", rev = "e07a22f297940e41c8d11eeff2ac1618112e6e01" }
-tracing-subscriber = { git = "https://github.com/tokio-rs/tracing", rev = "e07a22f297940e41c8d11eeff2ac1618112e6e01" }
-tracing-log = { git = "https://github.com/tokio-rs/tracing", rev = "e07a22f297940e41c8d11eeff2ac1618112e6e01" }
-
 #operator-framework = { git = "https://github.com/ctron/operator-framework", rev = "b2b0fc88beca2deb07bad6a963d0d5322c9ddff8" }
 
 actix-web-prom = { git = "https://github.com/nlopes/actix-web-prom", branch="nlopes/bump-to-actix-web-14" } #FIXME: use 0.6.0-beta.4 when available

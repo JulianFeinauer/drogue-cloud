@@ -56,7 +56,7 @@ opentelemetry-http = { version = "0.6" }
 tracing = "0.1"
 #tracing-subscriber = { version = "0.3", default-features = false, features = ["smallvec", "fmt", "ansi", "std"] }
 tracing-subscriber = { version = "0.3" }
-tracing-opentelemetry = "0.16"
+tracing-opentelemetry = "0.17"
 
 opentelemetry-jaeger = { version = "0.16", features = ["rt-tokio"], optional = true }
 
